@@ -1,0 +1,3 @@
+ini_parser:解决python内置ConfigParser库的2点不足：
+1）option 被转换为小写
+2）写配置文件时，清空符合^\s*(;|#)+\w+$的注释
